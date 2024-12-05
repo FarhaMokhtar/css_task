@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+}
+.logo{
+    color: yellow;
+    padding: 50px;
+    float: left;
+    margin: 0;
+}
+.nav_links{
+    float: right;
+
+}
+ul{
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    margin: 0;
+}
+li:first-child{
+    color: yellow;
+}
+li:hover{
+    color: brown;
+}
+.serv{
+text-align: center;   
+ width: 100%;
+ text-align: center;
+ margin-bottom: 50px;
+}
+.serv_cont{
+    width: 90%;
+    margin: auto;
+}
+img{
+    width: 150px;
+}
+.content1{
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin: 1%;
+    box-sizing: border-box; 
+}
+h3, p {
+    margin: 10px 0;
+}
